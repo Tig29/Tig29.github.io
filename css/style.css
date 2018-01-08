@@ -90,7 +90,7 @@ a:active {
   padding-right: 0px;
 }
 body {
-  margin-top: 150px;
+  margin-top: 15px;
   background: url(../img/522.png);
   background-attachment: fixed;
 }
@@ -105,10 +105,10 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
-.main-name h1 {
+.main-head h1 {
   margin-top: 10px;
 }
-.main-name h1 span {
+.main-head h1 span {
   color: #6610f2;
 }
 .image {
