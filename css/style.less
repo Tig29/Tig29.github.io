@@ -26,11 +26,14 @@ body{
   margin: 0;
  
 
+  backface-visibility: hidden;
 	margin-top: 5px;
 	background: url(../img/522.png);
 	background-attachment: fixed;
 }
-
+.pond{
+	 overflow: hidden;
+}
 .main-head{
 	
 
@@ -266,7 +269,7 @@ html { height: 100%; }
 
 .wrap {
     height: 250px;
-    width: 800px;
+    width: 100%;
     position: relative;
 }
 .ribbon_right {
@@ -291,7 +294,7 @@ html { height: 100%; }
     position: absolute;
     bottom: 0px;
     width: 330px;
-    right: 5%;
+    right: 35%;
     height: 240px;
 }
 .cake_bottom {
@@ -1029,12 +1032,14 @@ html { height: 100%; }
   border: 1px solid #000;
 }
 .cake {
-    right: 61%;
+    right: -4%;
    
 }
 }
 
-@media(min-width:321px) and (max-width:480px) {
+
+
+@media(min-width:321px) and (max-width:333px) {
 	.image{
 		margin-top: 15px;
   height: 150px;
@@ -1045,11 +1050,70 @@ html { height: 100%; }
 	  
 }
 .cake {
-    right: 51%;
+    right: -1%;
    
 }
 }
-
+@media(min-width:333px) and (max-width:349px) {
+	.image{
+		margin-top: 15px;
+  height: 150px;
+  width: 150px;
+  border-radius: 180px;
+  border: 1px solid #000;
+  
+	  
+}
+.cake {
+    right: 0%;
+   
+}
+}
+@media(min-width:350px) and (max-width:375px) {
+	.image{
+		margin-top: 15px;
+  height: 150px;
+  width: 150px;
+  border-radius: 180px;
+  border: 1px solid #000;
+  
+	  
+}
+.cake {
+    right: 7%;
+   
+}
+}
+@media(min-width:376px) and (max-width:414px) {
+	.image{
+		margin-top: 15px;
+  height: 150px;
+  width: 150px;
+  border-radius: 180px;
+  border: 1px solid #000;
+  
+	  
+}
+.cake {
+    right: 4%;
+   
+}
+}
+@media(min-width:415px) and (max-width:480px) {
+	.image{
+		margin-top: 15px;
+  height: 150px;
+  width: 150px;
+  border-radius: 180px;
+  border: 1px solid #000;
+  
+	  
+}
+.cake {
+    right: 13%;
+   
+}
+}
 @media(min-width:481px) and (max-width:768px) {
 	.image{
 		margin-top: 15px;
@@ -1061,7 +1125,7 @@ html { height: 100%; }
 	  
 }
 .cake {
-    right: 45%;
+    right: 19%;
    
 }
 }
@@ -1077,14 +1141,14 @@ html { height: 100%; }
 	  
 }
 .cake {
-    right: 33%;
+    right: 26%;
    
 }
 }
 
 @media(min-width:993px) and (max-width:1200px) {
 	.cake {
-    right: 18%;
+    right: 32%;
    
 }
 }
